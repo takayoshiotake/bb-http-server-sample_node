@@ -1,0 +1,21 @@
+{
+  "name": "bb-http-server-sample",
+  "version": "0.0.1",
+  "description": "sample",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node debug app.js",
+    "inspect": "node --inspect --debug-brk app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takayoshiotake/bb-http-server-sample_node.git"
+  },
+  "keywords": [],
+  "author": "takayoshiotake",
+  "license": "ISC",
+  "dependencies": {
+    "bb-http-server": "0.0.1"
+  }
+}
