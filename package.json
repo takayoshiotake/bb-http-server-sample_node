@@ -16,6 +16,6 @@
   "author": "takayoshiotake",
   "license": "ISC",
   "dependencies": {
-    "bb-http-server": "0.0.1"
+    "bb-http-server": "~0.0.1"
   }
 }
