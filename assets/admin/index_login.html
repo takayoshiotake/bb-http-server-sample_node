@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', () => {
+        var form_login = document.forms['login']
+        form_login.elements['_submit'].onclick = () => {
+          form_login.submit()
+        }
+      })
+    </script>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form name="login" action="./" method="POST" accept-charset="UTF-8">
+      <input type="hidden" name="api" value="login"/>
+      <input type="password" name="password" size="20"/>
+      <input type="button" name="_submit" value="login"/>
+    </form>
+    <p style="opacity:0.18;">password</p>
+  </body>
+</html>

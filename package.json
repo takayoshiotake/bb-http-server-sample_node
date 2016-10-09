@@ -1,6 +1,6 @@
 {
   "name": "bb-http-server-sample",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "sample",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,6 @@
   "author": "takayoshiotake",
   "license": "ISC",
   "dependencies": {
-    "bb-http-server": "~0.0.1"
+    "bb-http-server": "~0.0.4"
   }
 }
